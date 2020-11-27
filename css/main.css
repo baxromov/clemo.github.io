@@ -1,0 +1,13 @@
+body{
+    line-height: 1.8;
+}
+.brand{
+    font-weight: 900;
+    font-size: 30px;
+}
+header nav ul li a{
+    color: #A6A6A6;
+}
+header nav ul li a:hover{
+    color: black;
+}
