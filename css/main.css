@@ -5,9 +5,93 @@ body{
     font-weight: 900;
     font-size: 30px;
 }
+header{
+    box-shadow: 0px 1px 10px black !important;
+    z-index: 1;
+    background-color: white;
+}
 header nav ul li a{
     color: #A6A6A6;
 }
 header nav ul li a:hover{
     color: black;
 }
+.main-carousel{
+    background-color: #FFE1BD;
+    padding: 8em;
+    margin-top: 7em !important;
+}
+.main-carousel .owl-carousel input{
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    padding: 3px 20px 4px 20px;
+    border: 0px;
+}
+.main-carousel .owl-carousel div h1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+    word-spacing: 5px;
+}
+.main-carousel .owl-carousel div h1::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: black;
+    bottom: -10px;
+    left: calc(50% - 30px);
+
+}
+.main-carousel .owl-carousel div .button{
+    display: flex;
+    justify-content: center;
+}
+.activities .container h1{
+    font-size: 50px;
+    font-weight: 100 !important;
+}
+.activities .container .row .col-md-6 img{
+    height: 560px;
+    width: 560px;
+}
+.activities .container .row .col-md-6 h1{
+    font-weight: 900;
+    color: black;
+    position: relative;
+}
+.activities .container .row .col-md-6 h1::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    bottom: -10px;
+    left: 0;
+}
+.activities .container .row .col-md-6 .mt-md-5{
+    color: #818181 !important   ;
+}
+.activities .container .row .col-md-6 div{
+    line-height: 0px;
+}
+.activities .container .row .col-md-6 div p{
+    font-size: 30px;
+}
+.activities .container .row .col-md-6 button{
+    border: 1px solid #818181;
+    border-radius: 20px;
+    background: white;
+    padding: 5px 20px 5px 20px;
+}
+.bax-btn{
+    border:none;
+    border-radius: 20px;
+    background: black;
+    padding: 5px 30px 5px 30px;
+    color: white;
+}
+
+
+
